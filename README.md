@@ -1,6 +1,6 @@
-# symbolify :money_with_wings:
+# currency-symbols :money_with_wings:
 
-Get currency symbol by currency code eg: USD -> $
+Get currency symbol by currency code `eg: USD -> $`
 
 ## Installation
 
