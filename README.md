@@ -1,5 +1,11 @@
 # currency-symbols :money_with_wings:
 
+[![Build Status](https://travis-ci.com/arshadkazmi42/symbolify.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/currency-symbols)
+[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols)
+[![LICENSE](https://img.shields.io/pypi/l/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
+[![Version](https://img.shields.io/pypi/v/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols)
+
 Get currency symbol by currency code `eg: USD -> $`
 
 ## Installation
