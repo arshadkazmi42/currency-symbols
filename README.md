@@ -34,5 +34,10 @@ You can log any issues or suggestion related to this library [here](https://gith
 
 Read our contributing [guide](https://github.com/arshadkazmi42/currency-symbols/blob/master/CONTRIBUTING.md) on getting started with contributing to the codebase
 
+## Contributors
+
+Thank you to all the contributors who help in making this project better :raised_hands:
+<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
+
 ## Credits
 Inspired by work of [@bengourley](https://github.com/bengourley) on [currency-symbol-map](https://github.com/bengourley/currency-symbol-map#readme)
