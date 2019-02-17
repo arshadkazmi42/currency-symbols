@@ -37,6 +37,7 @@ Read our contributing [guide](https://github.com/arshadkazmi42/currency-symbols/
 ## Contributors
 
 Thank you to all the contributors who help in making this project better :raised_hands:
+
 <a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
 
 ## Credits
