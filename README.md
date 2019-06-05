@@ -26,6 +26,18 @@ print(dollarSymbol)
 # Output:
 # $
 ```
+```python
+
+from currency_symbols import CurrencySymbols
+
+getEtherium = CurrencySymbols.get_symbol('ETH')
+print("Is {} more valuable than $ ?".format(getEtherium))
+
+print("Using these modules are useful when trying to get currency rates such as {}".format(CurrencySymbols.get_symbol("YER")))
+
+getBitcoin = CurrencySymbols.get_symbol("BTC")
+print("Buy {} or {}?".format(getBitcoin,getEtherium))
+```
 
 ## Contributing
 
