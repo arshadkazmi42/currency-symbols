@@ -20,25 +20,25 @@ $ pip3 install currency-symbols
 ```python
 from currency_symbols import CurrencySymbols
 
-dollarSymbol = CurrencySymbols.get_symbol('USD');
+dollarSymbol = CurrencySymbols.get_symbol('USD')
 print(dollarSymbol)
 
 # Output:
 # $
 
-euroSymbol = CurrencySymbols.get_symbol('EUR');
-print(dollarSymbol)
+euroSymbol = CurrencySymbols.get_symbol('EUR')
+print(euroSymbol)
 
 # Output:
 # €
 
-britishPoundSymbol = CurrencySymbols.get_symbol('EUR');
+britishPoundSymbol = CurrencySymbols.get_symbol('GBP')
 print(britishPoundSymbol)
 
 # Output:
 # £
 
-bitcoinSymbol = CurrencySymbols.get_symbol('BTC');
+bitcoinSymbol = CurrencySymbols.get_symbol('BTC')
 print(bitcoinSymbol)
 
 # Output:
