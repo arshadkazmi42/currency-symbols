@@ -1,4 +1,4 @@
-# currency-symbols :money_with_wings:
+﻿# currency-symbols :money_with_wings:
 
 [![Build Status](https://travis-ci.com/arshadkazmi42/currency-symbols.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/currency-symbols)
 [![Downloads](https://img.shields.io/pypi/dm/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
@@ -55,8 +55,7 @@ Read our contributing [guide](https://github.com/arshadkazmi42/currency-symbols/
 ## Contributors
 
 Thank you to all the contributors who help in making this project better :raised_hands:
-
-<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
+<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/DavidLeeR"><img src="https://github.com/DavidLeeR.png" width="30" /></a>
 
 ## Credits
 
