@@ -20,11 +20,29 @@ $ pip3 install currency-symbols
 ```python
 from currency_symbols import CurrencySymbols
 
-dollarSymbol = CurrencySymbols.get_symbol('USD');
+dollarSymbol = CurrencySymbols.get_symbol('USD')
 print(dollarSymbol)
 
 # Output:
 # $
+
+euroSymbol = CurrencySymbols.get_symbol('EUR')
+print(euroSymbol)
+
+# Output:
+# €
+
+britishPoundSymbol = CurrencySymbols.get_symbol('GBP')
+print(britishPoundSymbol)
+
+# Output:
+# £
+
+bitcoinSymbol = CurrencySymbols.get_symbol('BTC')
+print(bitcoinSymbol)
+
+# Output:
+# ฿
 ```
 
 ## Contributing
@@ -41,4 +59,5 @@ Thank you to all the contributors who help in making this project better :raised
 <a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
 
 ## Credits
+
 Inspired by work of [@bengourley](https://github.com/bengourley) on [currency-symbol-map](https://github.com/bengourley/currency-symbol-map#readme)
