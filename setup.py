@@ -11,7 +11,7 @@ setuptools.setup(
     description="Get currency symbol by currency code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/arshadkazmi42/currenct-symbols.py",
+    url="https://github.com/arshadkazmi42/currency-symbols.py",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
