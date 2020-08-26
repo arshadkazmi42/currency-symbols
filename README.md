@@ -9,7 +9,7 @@
 
 Get currency symbol by currency code `eg: USD -> $`
 
-##References
+## References
 [ISO 4217 - Currency Codes](https://www.iso.org/iso-4217-currency-codes.html)
 
 ## Installation
