@@ -1,4 +1,4 @@
-from constants import CURRENCY_SYMBOLS_MAP
+from .constants import CURRENCY_SYMBOLS_MAP
 
 class CurrencySymbols(object):
 

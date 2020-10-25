@@ -7,7 +7,7 @@ If you are looking forward to start contributing to beautiful world of open sour
 - Create a branch using `git checkout -b feature-branch`
 - Make the required changes
 - Run below command to verify all tests are passing
-  - `pytest currency-symbols/test.py`
+  - `pytest currency_symbols/test.py`
 - Create a pull request using below commands
   - `git add --all`
   - `git commit -m "your commit message"`
