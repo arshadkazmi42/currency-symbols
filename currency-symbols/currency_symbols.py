@@ -8,9 +8,5 @@ class CurrencySymbols(object):
     def get_symbol(currency):
         if not currency:
             return None
-
-        if currency not in CURRENCY_SYMBOLS_MAP:
-            return None
-        
-        return CURRENCY_SYMBOLS_MAP[currency]
-
+        else:
+            return CURRENCY_SYMBOLS_MAP.get(currency)
