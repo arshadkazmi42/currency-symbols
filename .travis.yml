@@ -2,4 +2,4 @@ language: python
 python:
   - "3.6"
 script:
-  - pytest currency-symbols/test.py
+  - pytest currency_symbols/test.py
