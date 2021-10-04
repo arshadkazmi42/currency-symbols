@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="currency-symbols",
-    version="1.0.0",
+    version="2.0.1",
     author="Arshad Kazmi",
     author_email="arshadkazmi42@gmail.com",
     description="Get currency symbol by currency code",
