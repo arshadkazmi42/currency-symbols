@@ -12,6 +12,7 @@ class CurrencySymbols:
         Parameters
         ----------
         currency : str
+            ISO 4217 - Currency Codes
 
         Returns
         -------
