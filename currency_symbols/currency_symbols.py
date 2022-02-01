@@ -1,12 +1,23 @@
-from .constants import CURRENCY_SYMBOLS_MAP
+# -*- coding: utf-8 -*-
 
-class CurrencySymbols(object):
+from typing import Optional
+from ._constants import CURRENCY_SYMBOLS_MAP
 
-    # Checks if the input currency name exists in the map
-    # If it exists, return the symbbol
+
+class CurrencySymbols:
     @staticmethod
-    def get_symbol(currency):
-        if not currency:
-            return None
-        else:
-            return CURRENCY_SYMBOLS_MAP.get(currency)
+    def get_symbol(currency: str) -> Optional[str]:
+        """Converts provided currency into currency symbol.
+
+        Parameters
+        ----------
+        currency : str
+            ISO 4217 - Currency Codes
+
+        Returns
+        -------
+        Optional[str]
+            Currency symbol, None if not exists.
+        """
+
+        return CURRENCY_SYMBOLS_MAP.get(currency.upper(), None)
