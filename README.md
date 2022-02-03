@@ -55,11 +55,6 @@ You can log any issues or suggestion related to this library [here](https://gith
 
 Read our contributing [guide](https://github.com/arshadkazmi42/currency-symbols/blob/master/CONTRIBUTING.md) on getting started with contributing to the codebase
 
-## Contributors
-
-Thank you to all the contributors who help in making this project better :raised_hands:<br>
-
-<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/DavidLeeR"><img src="https://github.com/DavidLeeR.png" width="30" /></a>
 
 ## Credits
 
