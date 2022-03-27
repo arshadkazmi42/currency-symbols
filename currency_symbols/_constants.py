@@ -85,7 +85,7 @@ CURRENCY_SYMBOLS_MAP = {
     "KRW": "₩",
     "KWD": "KD",
     "KYD": "$",
-    "KZT": "лв",
+    "KZT": "₸",
     "LAK": "₭",
     "LBP": "£",
     "LKR": "₨",
