@@ -26,3 +26,8 @@ class TestSum(unittest.TestCase):
             "¥",
             "Should return CNY symbol"
         )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("KZT"),
+            "₸",
+            "Should return KZT symbol"
+        )
