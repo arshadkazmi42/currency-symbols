@@ -41,6 +41,7 @@ CURRENCY_SYMBOLS_MAP = {
     "CZK": "Kč",
     "DJF": "Fdj",
     "DKK": "kr",
+    "DOL": "$",
     "DOP": "RD$",
     "DZD": "دج",
     "EEK": "kr",
