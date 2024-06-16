@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from typing import Optional
+from typing import Optional, List, Any
 from ._constants import CURRENCY_SYMBOLS_MAP
 
 
@@ -23,7 +23,7 @@ class CurrencySymbols:
         return CURRENCY_SYMBOLS_MAP.get(currency.upper(), None)
 
     @staticmethod
-    def get_currency_code(currency_symbol: str) -> Optional[str]:
+    def get_currency_code(currency_symbol: str) -> list[Any]:
         """Converts provided currency symbol into currency code.
 
         Parameters
@@ -36,8 +36,5 @@ class CurrencySymbols:
         Optional[str]
             Currency, None if not exists.
         """
-        for currency_code, symbol in CURRENCY_SYMBOLS_MAP.items():
-            if symbol == currency_symbol:
-                return currency_code
-            else:
-                return None
+
+        return [currency_code for currency_code, symbol in CURRENCY_SYMBOLS_MAP.items() if symbol == currency_symbol]
