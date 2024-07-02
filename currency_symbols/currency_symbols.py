@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from typing import Optional, List, Any
-from _constants import CURRENCY_SYMBOLS_MAP
+from ._constants import CURRENCY_SYMBOLS_MAP
 
 
 class CurrencySymbols:
