@@ -54,6 +54,6 @@ class TestSum(unittest.TestCase):
 
         self.assertEqual(
             CurrencySymbols.get_currency_code("¥"),
-            ['CNY', 'JPY', 'RMB'],
-            "Return a list containing CNY, JPY, RMB"
+            ['CNY', 'JPY'],
+            "Return a list containing CNY, JPY"
         )
