@@ -1,7 +1,7 @@
 ﻿# currency-symbols :money_with_wings:
 
 [![Build](https://github.com/arshadkazmi42/currency-symbols/actions/workflows/pytest.yml/badge.svg)](https://github.com/arshadkazmi42/currency-symbols/actions/workflows/pytest.yml)
-[![Downloads](https://img.shields.io/pypi/dm/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
+[![Downloads](https://img.shields.io/pypi/dd/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
 [![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols)
 [![LICENSE](https://img.shields.io/pypi/l/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
 [![Version](https://img.shields.io/pypi/v/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
