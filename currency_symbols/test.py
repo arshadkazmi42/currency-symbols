@@ -31,3 +31,29 @@ class TestSum(unittest.TestCase):
             "₸",
             "Should return KZT symbol"
         )
+
+    def test_currency_code(self) -> None:
+        self.assertEqual(
+            CurrencySymbols.get_currency_code("₹"),
+            ['INR'],
+            "Return a list containing INR"
+        )
+
+        self.assertEqual(
+            CurrencySymbols.get_currency_code("$"),
+            ['ARS', 'AUD', 'BBD', 'BMD', 'BND', 'BSD', 'CAD', 'CLP', 'COP', 'CUC', 'CVE', 'FJD', 'GYD', 'HKD', 'KYD',
+             'LRD', 'MXN', 'NAD', 'NZD', 'SBD', 'SGD', 'SRD', 'SVC', 'TVD', 'USD', 'XCD'],
+            "Return list containing ARS, AUD, BBD, BMD, BND, BSD, CAD, CLP, COP, CUC, CVE, FJD, GYD, HKD, KYD, LRD, MXN, NAD, NZD, SBD, SGD, SRD, SVC, TVD, USD, XCD"
+        )
+
+        self.assertEqual(
+            CurrencySymbols.get_currency_code("£"),
+            ['EGP', 'FKP', 'GBP', 'GGP', 'GIP', 'IMP', 'JEP', 'LBP', 'SHP', 'SSP', 'SYP'],
+            "Return a list containing EGP, FKP, GBP, GGP, GIP, IMP, JEP, LBP, SHP, SSP, SYP"
+        )
+
+        self.assertEqual(
+            CurrencySymbols.get_currency_code("¥"),
+            ['CNY', 'JPY'],
+            "Return a list containing CNY, JPY"
+        )
