@@ -31,3 +31,63 @@ class TestSum(unittest.TestCase):
             "₸",
             "Should return KZT symbol"
         )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("CLF"),
+            "UF",
+            "Should return CLF symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("CNH"),
+            "¥",
+            "Should return CNH symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("DEM"),
+            "DM",
+            "Should return DEM symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("FRF"),
+            "₣",
+            "Should return FRF symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("SLE"),
+            "Le",
+            "Should return SLE symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("VES"),
+            "Bs.",
+            "Should return VES symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("XAG"),
+            "Ag",
+            "Should return XAG symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("XAU"),
+            "Au",
+            "Should return XAU symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("XDR"),
+            "SDR",
+            "Should return XDR symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZMK"),
+            "ZK",
+            "Should return ZMK symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZMW"),
+            "ZK",
+            "Should return ZMW symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZWL"),
+            "Z$",
+            "Should return ZWL symbol"
+        )
