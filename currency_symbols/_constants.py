@@ -177,6 +177,7 @@ CURRENCY_SYMBOLS_MAP = {
     "XAU": "Au",
     "XBT": "Ƀ",
     "XCD": "$",
+    "XCG": "Cg",
     "XDR": "SDR",
     "XOF": "CFA",
     "XPF": "₣",
@@ -185,5 +186,8 @@ CURRENCY_SYMBOLS_MAP = {
     "ZMK": "ZK",
     "ZMW": "ZK",
     "ZWD": "Z$",
-    "ZWL": "Z$"
+    "ZWG": "ZiG",
+    "ZWL": "Z$",
+    "ZWN": "Z$",
+    "ZWR": "Z$"
 }

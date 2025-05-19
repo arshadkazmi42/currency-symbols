@@ -72,6 +72,11 @@ class TestSum(unittest.TestCase):
             "Should return XAU symbol"
         )
         self.assertEqual(
+            CurrencySymbols.get_symbol("XCG"),
+            "Cg",
+            "Should return XCG symbol"
+        )
+        self.assertEqual(
             CurrencySymbols.get_symbol("XDR"),
             "SDR",
             "Should return XDR symbol"
@@ -87,7 +92,27 @@ class TestSum(unittest.TestCase):
             "Should return ZMW symbol"
         )
         self.assertEqual(
+            CurrencySymbols.get_symbol("ZWD"),
+            "Z$",
+            "Should return ZWD symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZWG"),
+            "ZiG",
+            "Should return ZWG symbol"
+        )
+        self.assertEqual(
             CurrencySymbols.get_symbol("ZWL"),
             "Z$",
             "Should return ZWL symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZWN"),
+            "Z$",
+            "Should return ZWN symbol"
+        )
+        self.assertEqual(
+            CurrencySymbols.get_symbol("ZWR"),
+            "Z$",
+            "Should return ZWR symbol"
         )
