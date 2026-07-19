@@ -1,20 +1,21 @@
-﻿# currency-symbols :money_with_wings:
+# currency-symbols :money_with_wings:
 
-[![Downloads](https://img.shields.io/pypi/dm/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
-[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols)
-[![LICENSE](https://img.shields.io/pypi/l/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
+[![CI](https://github.com/arshadkazmi42/currency-symbols/actions/workflows/pytest.yml/badge.svg)](https://github.com/arshadkazmi42/currency-symbols/actions/workflows/pytest.yml)
 [![Version](https://img.shields.io/pypi/v/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
-[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols)
+[![Downloads](https://img.shields.io/pypi/dm/currency-symbols.svg)](https://pypi.org/project/currency-symbols/)
+[![LICENSE](https://img.shields.io/pypi/l/currency-symbols.svg)](https://github.com/arshadkazmi42/currency-symbols/blob/master/LICENSE)
 
-Get currency symbol by currency code `eg: USD -> $`
+Get the currency symbol for an [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) currency code — `USD → $`, `EUR → €`, `INR → ₹`.
 
-## References
-[ISO 4217 - Currency Codes](https://www.iso.org/iso-4217-currency-codes.html)
+- Covers all active ISO 4217 codes, plus common historical, crypto and commodity codes
+- Zero dependencies
+- Fully typed ([PEP 561](https://peps.python.org/pep-0561/), ships `py.typed`)
+- Python 3.9+
 
 ## Installation
 
-```
-$ pip3 install currency-symbols
+```console
+pip install currency-symbols
 ```
 
 ## Usage
@@ -22,39 +23,34 @@ $ pip3 install currency-symbols
 ```python
 from currency_symbols import CurrencySymbols
 
-dollarSymbol = CurrencySymbols.get_symbol('USD')
-print(dollarSymbol)
+CurrencySymbols.get_symbol("USD")
+# '$'
 
-# Output:
-# $
+CurrencySymbols.get_symbol("EUR")
+# '€'
 
-euroSymbol = CurrencySymbols.get_symbol('EUR')
-print(euroSymbol)
+CurrencySymbols.get_symbol("gbp")
+# '£' — codes are case-insensitive
 
-# Output:
-# €
-
-britishPoundSymbol = CurrencySymbols.get_symbol('GBP')
-print(britishPoundSymbol)
-
-# Output:
-# £
-
-bitcoinSymbol = CurrencySymbols.get_symbol('BTC')
-print(bitcoinSymbol)
-
-# Output:
-# ฿
+CurrencySymbols.get_symbol("XYZ")
+# None — unknown codes return None
 ```
+
+## Changelog
+
+All notable changes are documented in the [CHANGELOG](https://github.com/arshadkazmi42/currency-symbols/blob/master/CHANGELOG.md).
 
 ## Contributing
 
 Interested in contributing to this project?
-You can log any issues or suggestion related to this library [here](https://github.com/arshadkazmi42/currency-symbols/issues/new)
+You can log any issues or suggestions related to this library [here](https://github.com/arshadkazmi42/currency-symbols/issues/new)
 
 Read our contributing [guide](https://github.com/arshadkazmi42/currency-symbols/blob/master/CONTRIBUTING.md) on getting started with contributing to the codebase
-
 
 ## Credits
 
 Inspired by work of [@bengourley](https://github.com/bengourley) on [currency-symbol-map](https://github.com/bengourley/currency-symbol-map#readme)
+
+## License
+
+[MIT](https://github.com/arshadkazmi42/currency-symbols/blob/master/LICENSE)
