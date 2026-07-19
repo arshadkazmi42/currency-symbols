@@ -2,6 +2,8 @@
 
 from .currency_symbols import CurrencySymbols
 
+__version__ = "2.0.4"
+
 __all__ = [
     "CurrencySymbols"
 ]
