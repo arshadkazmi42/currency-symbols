@@ -7,13 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.6] - 2026-08-01
+
+### Changed
+
+- Refreshed the PyPI project page (README): documented case-insensitive
+  lookups and `None` for unknown codes, live CI badge, Python 3.9+ / typed /
+  zero-dependency notes ([#49](https://github.com/arshadkazmi42/currency-symbols/pull/49))
+
+No functional changes.
+
+## [2.0.5] - 2026-07-19
+
 ### Added
 
 - `XCG` (Caribbean guilder, replaces ANG), `ZWG` (Zimbabwe Gold), `ZWN`, `ZWR` ([#40](https://github.com/arshadkazmi42/currency-symbols/pull/40))
+- `requires-python >= 3.9` metadata, `py.typed` (PEP 561) marker and runtime `__version__` ([#46](https://github.com/arshadkazmi42/currency-symbols/pull/46))
 
 ### Changed
 
 - Currency map is sorted alphabetically by currency code ([#40](https://github.com/arshadkazmi42/currency-symbols/pull/40))
+- Packaging migrated from `setup.py` to `pyproject.toml` ([#46](https://github.com/arshadkazmi42/currency-symbols/pull/46))
 
 ## [2.0.4] - 2025-05-16
 
@@ -44,7 +58,9 @@ Older releases predate this changelog; see the
 [git history](https://github.com/arshadkazmi42/currency-symbols/commits/master)
 and [PyPI release history](https://pypi.org/project/currency-symbols/#history).
 
-[Unreleased]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.4...HEAD
+[Unreleased]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.6...HEAD
+[2.0.6]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.5...v2.0.6
+[2.0.5]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.3...v2.0.4
 [2.0.3]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/arshadkazmi42/currency-symbols/compare/v2.0.1...v2.0.2
